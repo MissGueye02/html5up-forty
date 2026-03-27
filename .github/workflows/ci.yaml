@@ -1,4 +1,4 @@
-name: CI-CD Docker Pipeline
+name: CI-CD Docker Pipeline1
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
   # ===============================
   # JOB 1 - CI : BUILD + PUSH
   # ===============================
-  ci:
+  ci :
     runs-on: ubuntu-latest
 
     steps:
